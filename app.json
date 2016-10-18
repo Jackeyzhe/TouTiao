@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/list/list",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#12b7f4",
+    "navigationBarTitleText": "小哲读报",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar":{
+    "color":"#9B9DB1",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list":[{
+      "pagePath": "pages/list/list",
+      "iconPath": "image/tab_dynamic_normal.png",
+      "selectedIconPath": "image/tab_dynamic_selected.png",
+      "text": "首页"
+    },{
+      "pagePath": "pages/list/list",
+      "iconPath": "image/tab_message_normal.png",
+      "selectedIconPath": "image/tab_message_selected.png",
+      "text": "发现"
+    },{
+      "pagePath": "pages/list/list",
+      "iconPath": "image/tab_contact_normal.png",
+      "selectedIconPath": "image/tab_contact_selected.png",
+      "text": "我的"
+    }]
+  }
+}

@@ -1,0 +1,29 @@
+<!--首页页面-->
+<view class="message_list">
+    <block wx:for="{{message}}" wx:for-index="idx">
+    <view class="item" bindtap="bindtap{{idx}}">
+        
+        <view class="item-left">
+            <view>
+                <text class="title">{{item.title}}</text>
+            </view>
+            
+            <view class="item-left" >
+                <image src="{{markImage}}" class="markImage"></image>
+                <text class="mark">{{item.count}}</text>
+
+                <image src="{{goodImage}}" class="goodImage"></image>
+                <text class="good">{{item.goodCount}}</text>
+            </view>
+        </view>
+
+        <view class="item-right">
+            <view class="url"><image src="{{item.url}}" class="image"></image></view>
+            <view ><text class="message">{{item.user}}</text></view>
+        </view>
+        
+        
+    </view>
+    <view  class="line"></view>
+    </block>
+</view>
